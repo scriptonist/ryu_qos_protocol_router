@@ -1,0 +1,7 @@
+{
+  "match": {
+    "nw_proto": "UDP",
+    "dl_type": "IPv4"
+  },
+  "actions": { "queue": "1" }
+}

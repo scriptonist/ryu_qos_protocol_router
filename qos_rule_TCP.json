@@ -1,0 +1,7 @@
+{
+  "match": {
+    "nw_proto": "TCP",
+    "dl_type": "IPv4"
+  },
+  "actions": { "queue": "0" }
+}
