@@ -1,1 +1,1 @@
-sudo mn --mac --switch ovsk --controller remote -x
+sudo mn --mac --switch ovsk --controller remote

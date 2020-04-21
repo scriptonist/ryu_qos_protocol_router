@@ -50,6 +50,7 @@ source env/bin/activate
 - In the other xterm window, dot the following
 ```
 ./set_ovsdb_addr.sh
+./setup_switch.sh
 ./setup_q.sh
 ./add_qos_rules.sh
 ```
