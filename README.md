@@ -38,6 +38,14 @@ cd ..
 sudo mn -c
 ./start_mininet.sh
 ```
+- Setup switch, open xterm window in s0
+```
+xterm s0
+```
+- In switch's xterm do, 
+```
+./setup_switch.sh
+```
 - Open two xterm windows of c0
 ```
 xterm c0 c0 
@@ -50,7 +58,6 @@ source env/bin/activate
 - In the other xterm window, dot the following
 ```
 ./set_ovsdb_addr.sh
-./setup_switch.sh
 ./setup_q.sh
 ./add_qos_rules.sh
 ```
