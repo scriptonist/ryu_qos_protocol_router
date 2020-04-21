@@ -10,7 +10,7 @@ What we'll accomplish is
 - `cd` into this repository
 - Create a new virtualenv of python2 in this repository
 ```
-virtualenv env
+virtualenv --python=/usr/bin/python2 env
 ```
 - Activate this environment
 ```
