@@ -38,9 +38,9 @@ cd ..
 sudo mn -c
 ./start_mininet.sh
 ```
-- Setup switch, open xterm window in s0
+- Setup switch, open xterm window in s1
 ```
-xterm s0
+xterm s1
 ```
 - In switch's xterm do, 
 ```
