@@ -83,4 +83,4 @@ xterm h1 h1 h2 h2
 ```
 - Now examine the bandwidth in h1 xterm windows and see the difference for tcp and udp.
 
-Note: This is a modified version of RYU Book QoS Example 1 (12.2) , so refer that. The only difference is there the classification is based on destination port and here it is based on protocol of the packet.
+Note: This is a modified version of RYU Book QoS Example 1 (12.2). The only difference is there the classification is based on destination port and here it is based on protocol of the packet.
